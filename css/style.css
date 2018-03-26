@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+/* start main rulz */
+.containr{width: 1000px;margin: auto;}
+
+.clearfix{clear: both;}
+
+/* ************************************************************  end main rulz *********************************************************************/
+
+ /************************************************************** start of header *******************************************************************/
+
+.header .slider{background-image: url('../../my_html_css_website/images/slider.jpg');background-size: cover;height: 800px; }
+
+.header .slider .intro{text-align: center;color: #fff;padding-top: 170px;}
+
+.header .slider .intro h2{ 
+    margin: 0 auto;/*حتى يوخر المسافه الي فوك 8*/
+    font-size: 60px;border-bottom: 3px solid #fff;border-top: 3px solid #fff;width: 800px;padding-top: 5px;padding-bottom: 5px;}
+
+.header .slider .intro button{background: none;color: #fff; margin-top: 30px;border: 3px solid #fff;font-size: 30px;padding: 10px 20px;font-weight: bold;}
+
+.header .navbar{background-color: #252f31;color: #FFF;overflow: hidden;}
+
+.header .navbar h2{float: left;}
+
+.header .navbar h2 span{color: #2ecc71}
+
+.header .navbar ul{list-style-type: none;padding-left: 0;float: right;overflow: hidden;}
+
+.header .navbar ul li{padding: 10px;float: left;}
+
+.header .navbar ul li a{text-decoration: none;color: #fff;}
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover
+{color: #30b576;}
+
+ /************************************************************** end of header ********************************************************************/
+
+/*************************************************************** start of features *******************************************************************/
+
+.features{overflow: hidden;padding-bottom: 110px;padding-top: 30px;}
+
+.features .feat{float: left;width: 33.333%;height: 150px;}
+
+.features .feat h2{color: #444;text-align: center}
+
+.features .feat p{line-height: 1.7; color: #888;text-align: justify;padding-left: 25px;}
+
+/************************************************************** end of features******************************************************************** */
+
+/* ************************************************************* start of about me *******************************************************************/
+
+.about-me{overflow: hidden;background-color: #f2f2f2;}
+
+.about-me .images{float: left;width: 40%;}
+
+.about-me .images img{width: 100%;}
+
+.about-me .info{float: left;width: 60%;}
+
+.about-me .info h2{ margin-left: 40px;color: #444;}
+
+.about-me .info p{margin-left: 40px;color: #888;line-height: 1.7;}
+
+.about-me .info .hobb{overflow: hidden;}
+
+.about-me .info .hobb > div{float: left;width: 50%;min-height: 100px;}
+
+.about-me .info .hobb > div h2{color: #444;}
+
+.about-me .info .hobb > div h2 i.fa fa-pencil{color: #30b576;}
+
+/***************************************************************** end of about me ******************************************************************/
+
+/***************************************************************** start of skills *******************************************************************/
+
+.my-skills{padding-top: 30px;padding-bottom: 30px;overflow: hidden;}
+
+.my-skills .skills,
+.my-skills .prog{float: left;width: 50%;}
+
+.my-skills .skills h2{color: #444;}
+
+.my-skills .skills p{color: #888;padding-bottom: 10px;}
+
+.my-skills .skills button{ background: none; color: #30b576;  border: 3px solid #30b576; padding: 10px 20px;font-weight: bold;font-size: 20px;}
+
+.my-skills .prog{margin-top: 40px;margin-bottom: 40px;}
+
+.my-skills .prog .tech h3{color: #444;font-weight: bold;}
+
+.my-skills .prog .tech div{background-color: #f2f2f2;height: 25px;}
+
+.my-skills .prog .tech div span{ line-height: 25px; color: #222; background-color: #30b576;text-align: right;height: 25px;display: inline-block;}
+
+/****************************************************** end of skills ***********************************************************************/
+
+
+/*********************************************************** start of resume *************************************************************/
+
+.resume{background-color: #f2f2f2;text-align: center; padding-top: 30px;padding-bottom: 30px;}
+
+.resume h2{font-size: 30px;font-weight: bold;color: #444;}
+
+.resume p{line-height: 1.7;color: #888;}
+
+.resume button{background: none;color: #30b576;border: 3px solid #30b576;padding: 10px 20px;font-weight: bold;font-size: 20px;}
+
+/************************************************************ end of resume *********************************************************************/
+
+/********************************************************************* start of educaton***********************************************************/
+
+.my-educations {padding-top: 30px;padding-bottom: 30px; overflow: hidden;}
+
+.my-educations .educations{float: left;width: 50%;margin-right: 5%;}
+
+.my-educations .educations h2{color: #444;}
+
+.my-educations .educations p{line-height: 1.7; color: #888;}
+
+.my-educations .exp{float: left;width: 45%;}
+
+.my-educations .exp h2{color: #444; margin-top: 70px;margin-bottom: 8px;}
+
+.my-educations .exp span{color: #888; line-height:1.7;display: block}
+
+.my-educations .exp span.sp{display: block; background-color: #30b576;border: solid #30b576; display: inline-block;color: #fff;margin: 10px;}
+
+.my-educations .exp p{line-height: 1.7;color: #888;}
+
+
+/********************************************************************* end of education ***************************************************************/
+
+/* **************************************************************** start of teste ******************************************************************** */
+
+.teste{ background-color: #f2f2f2;text-align: center;padding-top: 30px;padding-bottom: 30px;}
+
+.teste p{line-height: 1.7;color: #888;}
+
+.teste h2{color: #444;} 
+
+.teste ul{list-style-type: circle; background: none;text-align: center;}
+
+.teste li{display: inline-block;width: 10px;height: 10px;border: 1px solid #30b576; border-radius: 5px; }
+
+.teste li.active{background:#30b576; }
+
+/* ***************************************************************** end of teste *********************************************************************/
+
+/******************************************************************* start of porte ******************************************************************/
+
+.porti{ padding-bottom: 30px; padding-top: 30px; text-align: center;overflow: hidden;}
+
+.porti h2{color: #444; font-size: 40px; padding-bottom: 20px;font-weight: bold;}
+
+.porti p{line-height: 1.7; color: #888; padding-bottom: 20px}
+
+.porti .our-pics > div{width: 33.3333%;float: left;padding-bottom: 15px;}
+
+.porti .our-pics > div img{ width: 95%; margin-left: 20px;}
+
+/******************************************************************* end of porte *********************************************************************/
+
+/* **************************************************************** start of contact me ***************************************************************/
+
+.contact-me{background-color: #252f31;overflow: hidden;}
+
+.contact-me .info h2{color: #fff;font-size: 30px;}
+
+.contact-me .info p{line-height: 1.7;color: #888;}
+
+.contact-me .info strong{color: #fff;}
+
+.contact-me .info,
+.contact-me .my-form{width: 50%;float: left;}
+
+.contact-me .my-form form{padding-top: 50px;padding-left: 40px;}
+
+.contact-me .my-form form p{color: #fff;font-size: 20px;}
+
+.contact-me .my-form form input[type="text"],
+.contact-me .my-form form input[type="email"]{width:600px;;height: 40px;background-color: #4b5557;border: 0;}
+
+.contact-me .my-form form input[type='textarea']{width: 600px; height: 300px;margin-bottom: 30px;background-color: #4b5557;border: 0;}
+
+.contact-me .my-form form input[type='submit']{background-color: #191e22;padding: 10px; border: 1px solid #252f31; color: #fff; margin: 0 20px 20px 20px;}
+
+/****************************************************************** end of contact me ***************************************************************/
+
+/****************************************************************** start footer *******************************************************************/
+
+.footer{background-color:#191e22;color: #6a6e71;padding: 5px 0;text-align: center;}
+
+.footer p{color: #888; font-size: 15px;}
+
+
+/******************************************************************* end footer******************************************************************  */
